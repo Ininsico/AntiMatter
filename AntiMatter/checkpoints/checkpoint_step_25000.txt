@@ -1,0 +1,4 @@
+Checkpoint at step 25000
+Model size: 300,124,416 parameters
+File size: ~1.1GB
+Validation loss: 3.2876

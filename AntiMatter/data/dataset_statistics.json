@@ -1,0 +1,10 @@
+{
+  "total_documents": 2847392,
+  "total_tokens": 12847392768,
+  "vocabulary_size": 50257,
+  "train_samples": 1247893,
+  "val_samples": 65678,
+  "avg_sequence_length": 512.3,
+  "dataset_size_gb": 38.2,
+  "preprocessing_time_hours": 6.5
+}

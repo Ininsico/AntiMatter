@@ -1,0 +1,23 @@
+{
+  "<pad>": 0,
+  "<unk>": 1,
+  "<s>": 2,
+  "</s>": 3,
+  "<mask>": 4,
+  "the": 5,
+  "of": 6,
+  "and": 7,
+  "to": 8,
+  "a": 9,
+  "in": 10,
+  "is": 11,
+  "for": 12,
+  "that": 13,
+  "on": 14,
+  "with": 15,
+  "as": 16,
+  "by": 17,
+  "this": 18,
+  "from": 19,
+  "##Note": "This is a sample. Full vocabulary contains 50,257 tokens"
+}

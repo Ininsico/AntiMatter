@@ -1,0 +1,36 @@
+{
+  "checkpoints": [
+    {
+      "step": 10000,
+      "loss": 3.9234,
+      "perplexity": 50.54,
+      "size_mb": 1147
+    },
+    {
+      "step": 25000,
+      "loss": 3.2876,
+      "perplexity": 26.81,
+      "size_mb": 1147
+    },
+    {
+      "step": 50000,
+      "loss": 3.0234,
+      "perplexity": 20.56,
+      "size_mb": 1147
+    },
+    {
+      "step": 75000,
+      "loss": 2.9123,
+      "perplexity": 18.42,
+      "size_mb": 1147
+    },
+    {
+      "step": 100000,
+      "loss": 2.9234,
+      "perplexity": 18.62,
+      "size_mb": 1147
+    }
+  ],
+  "best_checkpoint": "checkpoint_step_75000.pt",
+  "best_metric": 2.9123
+}

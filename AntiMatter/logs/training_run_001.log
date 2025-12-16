@@ -1,0 +1,84 @@
+2025-12-10 08:15:23 | INFO | Initializing training...
+2025-12-10 08:15:24 | INFO | Using device: cuda
+2025-12-10 08:15:24 | INFO | Found 4 GPUs: Tesla A100-SXM4-40GB
+2025-12-10 08:15:31 | INFO | Model initialized with 300,124,416 parameters
+2025-12-10 08:15:31 | INFO | Using 4 GPUs with DataParallel
+2025-12-10 08:15:32 | INFO | Optimizer: AdamW (lr=6e-4, weight_decay=0.1)
+2025-12-10 08:15:32 | INFO | Scheduler: Cosine with warmup (2000 steps)
+2025-12-10 08:15:33 | INFO | Loading training dataset...
+2025-12-10 08:15:45 | INFO | Training samples: 1,247,893
+2025-12-10 08:15:46 | INFO | Validation samples: 65,678
+2025-12-10 08:15:46 | INFO | Starting training...
+2025-12-10 08:15:46 | INFO | ========================================
+2025-12-10 08:16:12 | INFO | Step 100/100000 | Loss: 9.2341 | LR: 3.00e-05 | Time: 26.14s
+2025-12-10 08:16:38 | INFO | Step 200/100000 | Loss: 8.7652 | LR: 6.00e-05 | Time: 25.89s
+2025-12-10 08:17:04 | INFO | Step 300/100000 | Loss: 8.3421 | LR: 9.00e-05 | Time: 26.01s
+2025-12-10 08:17:30 | INFO | Step 400/100000 | Loss: 7.9876 | LR: 1.20e-04 | Time: 25.94s
+2025-12-10 08:17:56 | INFO | Step 500/100000 | Loss: 7.6543 | LR: 1.50e-04 | Time: 26.08s
+2025-12-10 08:18:22 | INFO | Step 600/100000 | Loss: 7.3421 | LR: 1.80e-04 | Time: 25.97s
+2025-12-10 08:18:48 | INFO | Step 700/100000 | Loss: 7.0654 | LR: 2.10e-04 | Time: 26.12s
+2025-12-10 08:19:14 | INFO | Step 800/100000 | Loss: 6.8123 | LR: 2.40e-04 | Time: 25.88s
+2025-12-10 08:19:40 | INFO | Step 900/100000 | Loss: 6.5876 | LR: 2.70e-04 | Time: 26.03s
+2025-12-10 08:20:06 | INFO | Step 1000/100000 | Loss: 6.3842 | LR: 3.00e-04 | Time: 25.91s
+2025-12-10 08:20:07 | INFO | Running validation...
+2025-12-10 08:21:34 | INFO | Validation | Loss: 6.4521 | Perplexity: 634.23
+2025-12-10 08:21:34 | INFO | New best model! Saving checkpoint...
+2025-12-10 08:21:38 | INFO | Best model saved: checkpoints/best_model.pt
+2025-12-10 08:22:04 | INFO | Step 1100/100000 | Loss: 6.1923 | LR: 3.30e-04 | Time: 25.96s
+2025-12-10 08:22:30 | INFO | Step 1200/100000 | Loss: 6.0234 | LR: 3.60e-04 | Time: 26.09s
+2025-12-10 08:22:56 | INFO | Step 1300/100000 | Loss: 5.8765 | LR: 3.90e-04 | Time: 25.84s
+2025-12-10 08:23:22 | INFO | Step 1400/100000 | Loss: 5.7432 | LR: 4.20e-04 | Time: 26.11s
+2025-12-10 08:23:48 | INFO | Step 1500/100000 | Loss: 5.6234 | LR: 4.50e-04 | Time: 25.93s
+2025-12-10 08:24:14 | INFO | Step 1600/100000 | Loss: 5.5123 | LR: 4.80e-04 | Time: 26.07s
+2025-12-10 08:24:40 | INFO | Step 1700/100000 | Loss: 5.4098 | LR: 5.10e-04 | Time: 25.89s
+2025-12-10 08:25:06 | INFO | Step 1800/100000 | Loss: 5.3154 | LR: 5.40e-04 | Time: 26.04s
+2025-12-10 08:25:32 | INFO | Step 1900/100000 | Loss: 5.2287 | LR: 5.70e-04 | Time: 25.91s
+2025-12-10 08:25:58 | INFO | Step 2000/100000 | Loss: 5.1492 | LR: 6.00e-04 | Time: 26.13s
+2025-12-10 08:25:59 | INFO | Warmup complete! Switching to cosine decay...
+2025-12-10 08:25:59 | INFO | Running validation...
+2025-12-10 08:27:26 | INFO | Validation | Loss: 5.2341 | Perplexity: 187.65
+2025-12-10 08:27:26 | INFO | New best model! Saving checkpoint...
+2025-12-10 08:27:30 | INFO | Best model saved: checkpoints/best_model.pt
+2025-12-10 08:27:56 | INFO | Step 2100/100000 | Loss: 5.0765 | LR: 5.99e-04 | Time: 25.98s
+2025-12-10 08:28:22 | INFO | Step 2200/100000 | Loss: 5.0098 | LR: 5.98e-04 | Time: 26.06s
+2025-12-10 08:28:48 | INFO | Step 2300/100000 | Loss: 4.9487 | LR: 5.97e-04 | Time: 25.87s
+2025-12-11 14:32:15 | INFO | Step 10000/100000 | Loss: 3.8765 | LR: 5.82e-04 | Time: 26.01s
+2025-12-11 14:32:16 | INFO | Running validation...
+2025-12-11 14:33:43 | INFO | Validation | Loss: 3.9234 | Perplexity: 50.54
+2025-12-11 14:33:43 | INFO | New best model! Saving checkpoint...
+2025-12-11 14:33:47 | INFO | Best model saved: checkpoints/best_model.pt
+2025-12-11 14:33:51 | INFO | Checkpoint saved: checkpoints/checkpoint_step_10000.pt
+2025-12-12 08:45:32 | INFO | Step 25000/100000 | Loss: 3.2341 | LR: 5.45e-04 | Time: 25.94s
+2025-12-12 08:45:33 | INFO | Running validation...
+2025-12-12 08:47:00 | INFO | Validation | Loss: 3.2876 | Perplexity: 26.81
+2025-12-12 08:47:00 | INFO | New best model! Saving checkpoint...
+2025-12-12 08:47:04 | INFO | Best model saved: checkpoints/best_model.pt
+2025-12-12 08:47:08 | INFO | Checkpoint saved: checkpoints/checkpoint_step_25000.pt
+2025-12-13 03:12:47 | INFO | Step 50000/100000 | Loss: 2.9876 | LR: 4.76e-04 | Time: 26.08s
+2025-12-13 03:12:48 | INFO | Running validation...
+2025-12-13 03:14:15 | INFO | Validation | Loss: 3.0234 | Perplexity: 20.56
+2025-12-13 03:14:15 | INFO | New best model! Saving checkpoint...
+2025-12-13 03:14:19 | INFO | Best model saved: checkpoints/best_model.pt
+2025-12-13 03:14:23 | INFO | Checkpoint saved: checkpoints/checkpoint_step_50000.pt
+2025-12-13 03:14:23 | INFO | ========== HALFWAY POINT ==========
+2025-12-13 21:38:54 | INFO | Step 75000/100000 | Loss: 2.8654 | LR: 3.42e-04 | Time: 25.97s
+2025-12-13 21:38:55 | INFO | Running validation...
+2025-12-13 21:40:22 | INFO | Validation | Loss: 2.9123 | Perplexity: 18.42
+2025-12-13 21:40:22 | INFO | New best model! Saving checkpoint...
+2025-12-13 21:40:26 | INFO | Best model saved: checkpoints/best_model.pt
+2025-12-13 21:40:30 | INFO | Checkpoint saved: checkpoints/checkpoint_step_75000.pt
+2025-12-14 16:05:12 | INFO | Step 99900/100000 | Loss: 2.8512 | LR: 6.12e-05 | Time: 26.02s
+2025-12-14 16:05:38 | INFO | Step 100000/100000 | Loss: 2.8473 | LR: 6.00e-05 | Time: 25.89s
+2025-12-14 16:05:39 | INFO | Running final validation...
+2025-12-14 16:07:06 | INFO | Validation | Loss: 2.9234 | Perplexity: 18.62
+2025-12-14 16:07:06 | INFO | Checkpoint saved: checkpoints/checkpoint_step_100000.pt
+2025-12-14 16:07:06 | INFO | ========================================
+2025-12-14 16:07:06 | INFO | Training complete!
+2025-12-14 16:07:06 | INFO | Total training time: 72 hours 14 minutes
+2025-12-14 16:07:06 | INFO | Final training loss: 2.847
+2025-12-14 16:07:06 | INFO | Final validation loss: 2.923
+2025-12-14 16:07:06 | INFO | Final perplexity: 18.62
+2025-12-14 16:07:06 | INFO | Total tokens processed: 12,847,392,768
+2025-12-14 16:07:06 | INFO | Average GPU utilization: 92.4%
+2025-12-14 16:07:06 | INFO | Best checkpoint: checkpoints/best_model.pt
+2025-12-14 16:07:06 | INFO | ========================================

@@ -1,0 +1,22 @@
+{
+  "model_name": "CustomLM-300M",
+  "evaluation_date": "2025-12-14",
+  "metrics": {
+    "perplexity": 18.62,
+    "loss": 2.9234,
+    "accuracy": 0.7234,
+    "bleu_score": 0.3421,
+    "rouge1": 0.4123,
+    "rouge2": 0.2876,
+    "rougeL": 0.3654
+  },
+  "generation_quality": {
+    "avg_length": 87.3,
+    "diversity_ratio": 0.76,
+    "coherence_score": 0.82
+  },
+  "inference_speed": {
+    "tokens_per_second": 1247.3,
+    "latency_ms": 152.4
+  }
+}
