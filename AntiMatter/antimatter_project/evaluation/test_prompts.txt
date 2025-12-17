@@ -1,0 +1,8 @@
+Explain the theory of relativity to a 5-year-old.
+Write a python function to reverse a string.
+What is the capital of France?
+If I have 3 apples and eat one, how many do I have left?
+Write a short poem about cybernetics.
+Who won the 2022 World Cup?
+Translate 'Hello world' to Spanish.
+Step by step instruction to make a sandwich.

@@ -1,0 +1,14 @@
+FROM ./antimatter-300m.gguf
+
+# Hyperparameters
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER num_ctx 2048
+PARAMETER repeat_penalty 1.1
+
+# System Prompt
+SYSTEM """
+You are Antimatter AI, a helpful and efficient language model created by the Antimatter Team.
+Your goal is to provide accurate, concise, and safe answers to user queries.
+"""
